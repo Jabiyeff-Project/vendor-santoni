@@ -278,8 +278,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libts_detected_face_hal \
-    libts_face_beautify_hal \
-    libgxbinder
+    libts_face_beautify_hal
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/system_ext/lib/libqti-at.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libqti-at.so \
     vendor/xiaomi/santoni/proprietary/system_ext/lib/libqti-iopd-client_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libqti-iopd-client_system.so \
