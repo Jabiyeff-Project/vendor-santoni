@@ -288,7 +288,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/system_ext/lib64/libqti-iopd-client_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqti-iopd-client_system.so \
     vendor/xiaomi/santoni/proprietary/system_ext/lib64/libqti-perfd-client_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqti-perfd-client_system.so \
     vendor/xiaomi/santoni/proprietary/system_ext/lib64/libqti_performance.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqti_performance.so \
-    vendor/xiaomi/santoni/proprietary/system/bin/move_widevine_data.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/move_widevine_data.sh \
     vendor/xiaomi/santoni/proprietary/system/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/xiaomi/santoni/proprietary/system/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/xiaomi/santoni/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
