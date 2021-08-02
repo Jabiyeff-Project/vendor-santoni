@@ -128,7 +128,7 @@ android_app_import {
 	apk: "proprietary/system/priv-app/WfdService/WfdService.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	privileged: true,
 }
@@ -139,7 +139,7 @@ android_app_import {
 	apk: "proprietary/vendor/app/CneApp/CneApp.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	soc_specific: true,
 }
@@ -150,7 +150,7 @@ android_app_import {
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	soc_specific: true,
 }
@@ -161,7 +161,7 @@ android_app_import {
 	apk: "proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	product_specific: true,
 }
@@ -172,7 +172,7 @@ android_app_import {
 	apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	system_ext_specific: true,
 }
@@ -183,7 +183,7 @@ android_app_import {
 	apk: "proprietary/system_ext/app/embms/embms.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	system_ext_specific: true,
 }
@@ -194,7 +194,7 @@ android_app_import {
 	apk: "proprietary/system_ext/app/imssettings/imssettings.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	system_ext_specific: true,
 }
@@ -205,7 +205,7 @@ android_app_import {
 	apk: "proprietary/system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	privileged: true,
 	system_ext_specific: true,
@@ -217,7 +217,7 @@ android_app_import {
 	apk: "proprietary/system_ext/priv-app/ims/ims.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	privileged: true,
 	system_ext_specific: true,
@@ -229,7 +229,7 @@ android_app_import {
 	apk: "proprietary/system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	privileged: true,
 	system_ext_specific: true,
